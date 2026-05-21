@@ -180,7 +180,7 @@ EventMate is a standalone web application that integrates with calendar services
 >   *Sequence for RSVP response processing.*
 
 > * **ENTITY-RELATIONSHIP DIAGRAM**
->   ![ER Diagram](images/ChatGPT Image May 21, 2026, 04_06_43 PM.png)
+>   <img src="images/ChatGPT Image May 21, 2026, 04_06_43 PM.png">
 
 > * **STATE DIAGRAM**
 >   *States of event: Draft → Scheduled → Ongoing → Completed.*
