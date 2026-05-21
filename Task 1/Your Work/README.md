@@ -1,4 +1,4 @@
-# Your SRS
+
 # Software Requirements Specification (SRS)
 
 ## Preface
@@ -10,8 +10,6 @@ This document provides the Software Requirements Specification (SRS) for **Event
 ## Version History
 
 * **Version 1.0** – Initial Draft.
-* **Version 1.1** – Added non-functional requirements and system diagrams.
-* **Version 1.2** – Updated system evolution and glossary.
 
 ---
 
