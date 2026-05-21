@@ -180,7 +180,23 @@ EventMate is a standalone web application that integrates with calendar services
 >   *Sequence for RSVP response processing.*
 
 > * **ENTITY-RELATIONSHIP DIAGRAM**
->   *Event, Participant, Task, and Organizer entities with relationships.*
+>   *+------------+       +------------+       +-------------+
+| Organizer  |       |   Event    |       | Participant |
++------------+       +------------+       +-------------+
+| organizerID|<----->| eventID    |<----->| participantID|
+| name       |       | title      |       | name         |
+| email      |       | date       |       | email        |
++------------+       | venue      |       +-------------+
+                     +------------+
+                           |
+                           |
+                     +-----v------+
+                     |   Task     |
+                     +------------+
+                     | taskID     |
+                     | status     |
+                     | deadline   |
+                     +------------+*
 
 > * **STATE DIAGRAM**
 >   *States of event: Draft → Scheduled → Ongoing → Completed.*
